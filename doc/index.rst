@@ -9,9 +9,11 @@ Basics
 
 .. toctree::
    :maxdepth: 2
+   :caption: Contents:
 
    purpose.rst
    dependencies.rst
    usage.rst
    credit.rst
    exercises.rst
+   test.md
