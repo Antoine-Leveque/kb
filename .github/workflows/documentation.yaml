@@ -18,6 +18,10 @@ jobs:
           bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3 
           rm -rf ~/miniconda3/miniconda.sh 
           ~/miniconda3/bin/conda init bash
+      - name : Activate Conda env 
+        run: | 
+          conda env create -f https://raw.githubusercontent.com/coderefinery/software/main/environment.yml
+          conda activate coderefinery
       - name: Sphinx build
         run: |
           sphinx-build doc _build
