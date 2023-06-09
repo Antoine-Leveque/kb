@@ -21,9 +21,9 @@ jobs:
       - name : Activate Conda env 
         run: | 
           conda env create -f https://raw.githubusercontent.com/coderefinery/software/main/environment.yml
-          conda init bash
       - name: Sphinx build
         run: |
+          conda init bash
           conda activate coderefinery
           sphinx-build doc _build
       - name: Deploy
