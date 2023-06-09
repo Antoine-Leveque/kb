@@ -21,9 +21,10 @@ jobs:
       - name : Activate Conda env 
         run: | 
           conda env create -f https://raw.githubusercontent.com/coderefinery/software/main/environment.yml
-          conda activate coderefinery
+          conda init bash
       - name: Sphinx build
         run: |
+          conda activate coderefinery
           sphinx-build doc _build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
