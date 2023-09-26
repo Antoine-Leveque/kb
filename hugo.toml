@@ -1,8 +1,4 @@
 baseURL = 'https://antoine-leveque.github.io/kb'
 languageCode = 'en-us'
-<<<<<<< HEAD:hugo.toml
-title = 'My New Hugo Site'
-theme = 'relearn'
-=======
 title = 'KB - Antoine LEVEQUE'
->>>>>>> c70ab34 (update site name):blog/hugo.toml
+theme = 'relearn'
