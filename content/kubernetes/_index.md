@@ -1,6 +1,7 @@
----
-Autor: Antoine LEVEQUE
-Title: kubernetes
----
++++
+archetype = "chapter"
+title = "Kubernetes"
+weight = 1
++++
 
-# Coucou 
+Lorem Ipsum.
