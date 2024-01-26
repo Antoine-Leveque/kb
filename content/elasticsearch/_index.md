@@ -1,7 +1,7 @@
 +++
 archetype = "chapter"
-title = "1 - Kubernetes"
-weight = 1
+title = "4 - Elasticsearch"
+weight = 4 
 +++
 
 Lorem Ipsum.
