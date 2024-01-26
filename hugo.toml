@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Knowledge base'
 theme = "hugo-theme-relearn"
 [params]
 # If an option value is said to be not set, you can achieve the same behavior
