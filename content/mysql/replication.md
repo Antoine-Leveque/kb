@@ -78,4 +78,11 @@ STOP SLAVE;
 START SLAVE;
 ```
 
-
+Check replication 
+```mysql
+CREATE DATABASE test;
+CREATE TABLE replication (ID INT NOT NULL);
+INSERT INTO test.replication (ID) VALUES (1);
+select * from test.replication; #On master host
+select * from test.replication; #On slave host
+```
