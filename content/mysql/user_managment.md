@@ -53,3 +53,19 @@ FLUSH PRIVILEGES;
 REVOKE ${PRIVILEGES} ON `db`.`table` FROM `user`@`host`;
 FLUSH PRIVILEGES;
 ```
+
+#### Kill all process for specific user
+
+List process
+```sql
+SHOW PROCESSLIST WHERE user='${USER}';
+```
+Get a set off kill command to run 
+```sql
+SELECT CONCAT('KILL ',id,';') AS run_this FROM information_schema.processlist WHERE user='${USER}' INTO OUTFILE '/var/lib/mysql-files/user.txt';
+```
+Kill all connection
+```sql
+SOURCE /var/lib/mysql-files/user.txt;
+```
+
