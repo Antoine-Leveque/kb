@@ -8,7 +8,8 @@ draft = false
 
 ```mysql
 SHOW GLOBAL STATUS LIKE 'wsrep_cluster_size';
-
+```
+```
 +--------------------+-------+
 | Variable_name      | Value |
 +--------------------+-------+
@@ -21,6 +22,8 @@ SHOW GLOBAL STATUS LIKE 'wsrep_cluster_size';
 ```mysql
 SHOW GLOBAL STATUS LIKE 'wsrep_cluster_status';
 
+```
+```
 +----------------------+---------+
 | Variable_name        | Value   |
 +----------------------+---------+
@@ -34,6 +37,8 @@ SHOW GLOBAL STATUS LIKE 'wsrep_cluster_status';
 ```mysql
 SHOW GLOBAL STATUS LIKE 'wsrep_ready';
 
+```
+```
 +---------------+-------+
 | Variable_name | Value |
 +---------------+-------+
@@ -44,6 +49,8 @@ SHOW GLOBAL STATUS LIKE 'wsrep_ready';
 ```mysql
 SHOW GLOBAL STATUS LIKE 'wsrep_connected';
 
+```
+```
 +-----------------+-------+
 | Variable_name   | Value |
 +-----------------+-------+
@@ -54,6 +61,8 @@ SHOW GLOBAL STATUS LIKE 'wsrep_connected';
 ```mysql
 SHOW GLOBAL STATUS LIKE 'wsrep_local_state_comment';
 
+```
+```
 +---------------------------+--------+
 | Variable_name             | Value  |
 +---------------------------+--------+
