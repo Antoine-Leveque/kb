@@ -12,6 +12,12 @@ CREATE USER 'user'@'host' IDENTIFIED BY 'password';
 
 Use `'%'` to match any host 
 
+### Delete user
+
+```mysql
+DROP USER 'user'@'host';
+```
+
 ### Update user password
 
 ```
