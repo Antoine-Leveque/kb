@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Network on Knowledge base</title>
+    <link>http://localhost:1313/kubernetes/network/index.html</link>
+    <description>Recent content in Network on Knowledge base</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Jan 2024 09:27:59 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/kubernetes/network/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

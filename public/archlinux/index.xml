@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Archlinux on Knowledge base</title>
+    <link>http://localhost:1313/archlinux/index.html</link>
+    <description>Recent content in Archlinux on Knowledge base</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Jan 2024 08:57:28 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/archlinux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installation</title>
+      <link>http://localhost:1313/archlinux/install/index.html</link>
+      <pubDate>Mon, 29 Jan 2024 08:57:28 +0100</pubDate>
+      <guid>http://localhost:1313/archlinux/install/index.html</guid>
+      <description>Keyboard layout loadkey fr-latin1Wifi setup iwctl station wlan0 scan station wlan0 get-networks station wlan0 connect ${SSID}Disk EFI Partition Command (m for help): n Partition number: &amp;lt;Press Enter&amp;gt; First sector: &amp;lt;Press Enter&amp;gt; Last sector, +/-sectors or +/-size{K,M,G,T,P}: +100M Command (m for help): t Partition type or alias (type L to list all): uefiBoot Partition Command (m for help): n Partition number: &amp;lt;Press Enter&amp;gt; First sector: &amp;lt;Press Enter&amp;gt; Last sector, +/-sectors or +/-size{K,M,G,T,P}: +1024M Command (m for help): t Partition type or alias (type L to list all): linuxLUKS Partition Command (m for help): n Partition number: &amp;lt;Press Enter&amp;gt; First sector: &amp;lt;Press Enter&amp;gt; Last sector, +/-sectors or +/-size{K,M,G,T,P}: &amp;lt;Press Enter&amp;gt; Command (m for help): t Partition type or alias (type L to list all): linuxCheck partition table and write change Command (m for help): pCommand (m for help): wFormat EFI and Boot mkfs.</description>
+    </item>
+  </channel>
+</rss>

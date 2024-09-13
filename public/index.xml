@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Knowledge base</title>
+    <link>http://localhost:1313/index.html</link>
+    <description>Recent content on Knowledge base</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 May 2024 09:36:18 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1 - Kubernetes</title>
+      <link>http://localhost:1313/kubernetes/index.html</link>
+      <pubDate>Wed, 24 Jan 2024 15:45:50 +0100</pubDate>
+      <guid>http://localhost:1313/kubernetes/index.html</guid>
+      <description>Lorem Ipsum.</description>
+    </item>
+    <item>
+      <title> 2 - Mysql</title>
+      <link>http://localhost:1313/mysql/index.html</link>
+      <pubDate>Wed, 24 Apr 2024 15:03:00 +0200</pubDate>
+      <guid>http://localhost:1313/mysql/index.html</guid>
+      <description>Lorem Ipsum.</description>
+    </item>
+    <item>
+      <title>3 - Ansible</title>
+      <link>http://localhost:1313/ansible/index.html</link>
+      <pubDate>Fri, 26 Jan 2024 16:27:44 +0100</pubDate>
+      <guid>http://localhost:1313/ansible/index.html</guid>
+      <description>Lorem Ipsum.</description>
+    </item>
+    <item>
+      <title>4 - Elasticsearch</title>
+      <link>http://localhost:1313/elasticsearch/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/elasticsearch/index.html</guid>
+      <description>Lorem Ipsum.</description>
+    </item>
+    <item>
+      <title>Archlinux</title>
+      <link>http://localhost:1313/archlinux/index.html</link>
+      <pubDate>Mon, 29 Jan 2024 08:57:28 +0100</pubDate>
+      <guid>http://localhost:1313/archlinux/index.html</guid>
+      <description>Lorem Ipsum.</description>
+    </item>
+    <item>
+      <title>0 - Linux</title>
+      <link>http://localhost:1313/linux/index.html</link>
+      <pubDate>Fri, 03 May 2024 09:36:18 +0200</pubDate>
+      <guid>http://localhost:1313/linux/index.html</guid>
+      <description>Lorem Ipsum.</description>
+    </item>
+  </channel>
+</rss>

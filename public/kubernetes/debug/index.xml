@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Debug on Knowledge base</title>
+    <link>http://localhost:1313/kubernetes/debug/index.html</link>
+    <description>Recent content in Debug on Knowledge base</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Jan 2024 15:45:11 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/kubernetes/debug/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pod</title>
+      <link>http://localhost:1313/kubernetes/debug/pod/index.html</link>
+      <pubDate>Wed, 24 Jan 2024 15:45:50 +0100</pubDate>
+      <guid>http://localhost:1313/kubernetes/debug/pod/index.html</guid>
+      <description>Running one time pod for debuging purpose kubectl --context {CONTEXT} -n ${NAMESPACE} run -i --tty --rm ${POD_NAME} --image=${IMAGE} --labels &amp;#34;label=1&amp;#34;,&amp;#34;label=2&amp;#34; --restart=Never -- sh</description>
+    </item>
+  </channel>
+</rss>

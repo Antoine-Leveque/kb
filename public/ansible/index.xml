@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 - Ansible on Knowledge base</title>
+    <link>http://localhost:1313/ansible/index.html</link>
+    <description>Recent content in 3 - Ansible on Knowledge base</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Jan 2024 16:27:44 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/ansible/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Variables</title>
+      <link>http://localhost:1313/ansible/debug/vars/index.html</link>
+      <pubDate>Fri, 26 Jan 2024 16:27:44 +0100</pubDate>
+      <guid>http://localhost:1313/ansible/debug/vars/index.html</guid>
+      <description>Testing vars ansible {SRV_NAME} -m debug -a &amp;#34;var=hostvars[inventory_hostname]&amp;#34; -i inventory.yaml </description>
+    </item>
+  </channel>
+</rss>
