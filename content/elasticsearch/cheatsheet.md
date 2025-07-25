@@ -12,17 +12,6 @@
     - [Snapshots related commands](#snapshots-related-commands)
     - [Miscellaneous commands](#miscellaneous-commands)
 
-## Useful links
-
-- [Cerebro](https://cerebro.es-tools.tooling.ovh.kube.qwant.ninja)  
-- [Elasticsearch deployment repository](https://gitlab.tooling.ovh.kube.qwant.ninja/argocd/elasticsearch)
-- [Elasticsearch docker image customization repository](https://gitlab.tooling.ovh.kube.qwant.ninja/images/elasticsearch)  
-- [Elasticsearch customized image registry](0g4p75r8.c1.gra9.container-registry.ovh.net/library/elasticsearch)  
-- [Elasticsearch customized helm chart](https://gitlab.tooling.ovh.kube.qwant.ninja/helm/elasticsearch-qwant)  
-- [Elasticsearch Documentation](https://www.elastic.co/guide/index.html)  
-- [Elasticsearch operator Documentation](https://www.elastic.co/guide/en/cloud-on-k8s/current/index.html)  
-- [Elasticsearch operator github repository](https://github.com/elastic/cloud-on-k8s)  
-- [Elasticvue browser extensioni (elasticsearch gui)](https://elasticvue.com/)
 
 - - -
 
