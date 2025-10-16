@@ -1,7 +1,7 @@
 +++
 title = 'Cheatsheet'
 date = 2025-10-16T14:50:53+02:00
-draft = true
+draft = false
 +++
 
 # Elasticsearch Cheatsheet
