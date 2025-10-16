@@ -1,6 +1,6 @@
-+++
+++
 title = 'Cheatsheet'
-date = 2025-07-25T14:43:00+02:00
+date = 2025-10-16T14:50:53+02:00
 draft = true
 +++
 
@@ -25,8 +25,8 @@ draft = true
 Elasticsearch default transport port (between ES nodes): `9300`  
 Elasticsearch default http port (api): `9200`  
 Elasticsearch operator namespace: `elastic-system`  
-Elasticsearch ingress URL format: `elastic.namespace.kubecluster.datacenter.kube.qwant.ninja`  
-Kibana ingress URL format: `kibana.namespace.kubecluster.datacenter.kube.qwant.ninja`  
+Elasticsearch ingress URL format: `elastic.namespace.kubecluster.datacenter.kube.ingress.local`  
+Kibana ingress URL format: `kibana.namespace.kubecluster.datacenter.kube.ingress.local`  
 
 - - -
 
@@ -40,12 +40,8 @@ kubectl get elasticsearch -A
 ```
 ```bash
 NAMESPACE             NAME              HEALTH   NODES   VERSION   PHASE   AGE
-int-es-apm            es-apm            green    9       8.15.0    Ready   181d
-int-es-eval           es-eval           green    6       8.15.0    Ready   203d
-int-es-ia-gen         es-ia-gen         green    5       8.15.0    Ready   193d
-int-es-modules        es-modules        green    6       8.15.0    Ready   224d
-int-es-news           es-news           green    5       8.15.0    Ready   208d
-int-es-newspartners   es-newspartners   green    7       7.17.16   Ready   228d
+int-es-rouge            es-rouge            green    9       8.15.0    Ready   181d
+int-es-vert           es-vert           green    6       8.15.0    Ready   203d
 ```
 
 List all kibanas from a kubernetes context:
@@ -213,4 +209,3 @@ To view exclude configuration:
 ```bash
 curl -X GET "https://elasticsearch.endpoint:port/_cluster/settings" -H 'Content-Type: application/json'
 ```
-
