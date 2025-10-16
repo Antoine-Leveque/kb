@@ -1,3 +1,9 @@
++++
+title = 'Cheatsheet'
+date = 2025-07-25T14:43:00+02:00
+draft = true
++++
+
 # Elasticsearch Cheatsheet
 
 ## Table of contents
@@ -11,7 +17,6 @@
     - [Tasks related command](#tasks-related-commands)
     - [Snapshots related commands](#snapshots-related-commands)
     - [Miscellaneous commands](#miscellaneous-commands)
-
 
 - - -
 
