@@ -1,7 +1,7 @@
 +++
 title = 'Resize_pvc'
 date = 2025-10-20T17:44:37+02:00
-draft = true
+draft = false
 +++
 
 # Resize PVC dans kubernetes
@@ -62,6 +62,10 @@ spec:
     requests:
       storage: 1Gi
 ```
+
+Ou en une ligne : `kubectl --context $CONTEXT -n $NAMESPACE patch pvc $PVC_NAME -p '{"spec": {"resources": {"requests": {"storage":"$NEW_STO"}}}}'`
+
+
 ### Suppression du StatefulSet 
 
 Pour que le changement de valeur soit pris en compte, il faut supprimer le StatefulSet duquel le PVC dépend sans supprimer les pods et PVC associés.
